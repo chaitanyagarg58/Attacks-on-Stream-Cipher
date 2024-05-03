@@ -26,3 +26,6 @@ Please ensure that the correct Python version is used. If "python3" corresponds 
 
 **wep_rc4_attack.py:** Utilizes the `pwntools` library to communicate with `wep_rc4_server.py` and perform the attack.  
 **Usage:** Run using `python wep_rc4_attack.py`.
+
+## GitHub Repository
+- The Codebase can be accessed at this [GitHub Repository](https://github.com/chaitanyagarg58/Attacks-on-Stream-Cipher).
