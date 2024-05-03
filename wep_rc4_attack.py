@@ -150,5 +150,5 @@ recvuntil("Enter key prefix (hex): ")
 key_prefix = hex(K3)[2:].zfill(2) + hex(K4)[2:].zfill(2) + hex(K5)[2:].zfill(2)
 sendline(key_prefix)
 
-recvall()
+recvuntil("\n")
 target.close()
